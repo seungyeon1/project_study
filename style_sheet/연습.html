@@ -5,21 +5,46 @@
     <title>Document</title>
     <style>
         div{border:1px #F00 solid;}
-        .top{heigth:80px; margin-bottom:10px;}
-        .left{width:200px; height:400px; float:left;}
-        .contents{height:400px; margin-left:210px;}
+        .top{height:65px; margin-bottom:20px;}
+        .left{width:100px; height:400px; float:left;}
+        .right{width:100px; height:400px; float:right;}
+        .contents{height:400px; margin:0 110px; }
+        .c1,.c2{ height:400px;}
+        .c1{width:50%; float:left; overflow:hidden; }
+        .c1 img { width:100%; }
+        .c2{margin-left:51%; background-image:url('../images/cupcake2.jpg'); background-size:cover; }
         .footer{height:80px; margin-top:10px;}
+
+        /*.c1 img {margin-top:-150px; size:cover;}*/
 
     </style>
 
 </head>
 <body>
+    
     <div class="top">top</div>
+
     <div class="left">left</div>
-    <div class="contents">contents</div>
+
+    <div class="right">right</div>
+
+    <div class="contents">
+        <div class="c1">
+            <img src="../images/cupcake2.jpg" alt"케잌">c1
+        </div>
+
+        <div class="c2">
+        c2
+        </div>
+
+    </div>
+
+
+
     <div class="footer">footer</div>
 
 
+     </div>
 
 </body>
 </html>
